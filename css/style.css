@@ -1,0 +1,225 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../images/header/background1.jpg);
+}
+button{
+    cursor: pointer;
+}
+.button{
+    cursor: pointer;
+}
+header{
+    border: 5px solid;
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: rgb(24, 23, 28);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.SiteProject{
+    padding: 0px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+.account{
+    font-size: 25pt;
+    visibility: hidden;
+    display: inline-block;
+}
+.sitebar{
+    background-image: url(../images/header/mobile-menu-icon.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    left: 0px;
+}
+nav{
+    background-color: #18171c;
+    line-height: 50px;
+    position: absolute;
+    width: 445px;
+    left: -450px;
+    height: 91%;
+    border: solid 2px;
+    border-color: white;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+}
+footer{
+    background-color: #2a5885;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+    left: 0px;
+}
+.footer-navigation{
+    margin: 0px 15px 0px 15px;
+}
+main{
+    background-color: #222129;
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    left: 350px;
+    border: solid 2px;
+    z-index: 0;
+    border-color: white;
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    line-height: 70px;
+}
+.proj_img{
+    width: 60%;
+    height: 500px;
+}
+div.form{
+    font-family: sans-serif;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+label.button{
+    cursor: pointer;
+    color: white;
+    background-color: #18171c;;
+    border: 2px solid;
+    border-color: white;
+    font-size: 18pt;
+}
+label:active{
+    box-shadow: inset 0px 0px 20px rgba(10, 173, 202, 0.664);
+}
+.buttonfile{
+    visibility: hidden;
+    position: absolute;
+    display: block;
+}
+.button{
+    background-color: #18171c;
+    color: white;
+    font-size: 18pt;
+}
+.button:active{
+    box-shadow: inset 0px 0px 20px rgba(10, 173, 202, 0.664);
+}
+section.loginform{
+    opacity: 0;
+    background-color: #18171c;
+    color: white;
+    width: 500px;
+    height: auto;
+    border: solid 2px;
+    border-color: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    transition-duration: 1s;
+}
+section.register{
+    opacity: 0;
+    background-color: #18171c;
+    color: white;
+    width: 500px;
+    height: auto;
+    border: solid 2px;
+    border-color: white;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+div.registerORlogin{
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: #18171c;;
+    border: 2px solid;
+    border-color: white;
+    font-size: 24pt;
+}
+button:active{
+    box-shadow: inset 0px 0px 20px rgba(10, 173, 202, 0.664);
+}
+.videoP{
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+    background-color: #222129;
+    width: 90%;
+    margin: 0px auto;
+}
+video{
+    width: 70%;
+}
+.article{
+    text-align: center;
+    margin: 0px auto;
+    width: 70%;
+    position: relative;
+    bottom: 20px;
+    margin-top: 20px;
+}
+textarea{
+    resize: none;
+    width: 500px;
+    height: auto;
+}
+@media(max-width: 966px){
+    header{
+        height: 100px;
+        width: 150%;
+    }
+    .account{
+        top: 65px;
+        position: absolute;
+        left: 60%;
+        margin: auto;
+    }
+    .SiteProject{
+        width: 100%;
+    }
+    .HeadNameSite{
+        left: 100px;
+        position: absolute;
+    }
+    .sitebar{
+        left:5%;
+    }
+}
+@media(max-width: 410px){
+    .HeadNameSite{
+        top: 70px;
+        left: 20px;
+        position: absolute;
+    }
+    .sitebar{
+        display: block;
+        left:5%;
+    }
+    .account{
+        top: 140px;
+        left: 200px;
+    }
+    header{
+        width: 150%;
+        height: 200px;
+    }
+}
